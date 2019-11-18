@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-cells{
+  width: 600px;
+  height: 600px;
+}
+
+.container-cells > .cells{
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.numRandom{
+  font-size: 24px;
+}
